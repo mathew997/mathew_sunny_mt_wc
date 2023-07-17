@@ -1,0 +1,13 @@
+.nav-btn {
+  padding: 0.875rem 2.75rem;
+  font-size: 1rem;
+  color: var(--clr-white);
+  background-color: var(--clr-blue-600);
+  transition: all ease-in-out 0.3s;
+  border-radius: 0.3rem;
+
+  &:hover {
+    background-color: var(--nav-btn-hover);
+    border-radius: 10rem;
+  }
+}
